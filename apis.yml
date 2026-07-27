@@ -1,9 +1,32 @@
 aid: huma-technologies-inc
 name: Huma Technologies Inc.
-description: Huma Technologies Inc. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Huma Technologies Inc. operates Huma Finance, described as the first PayFi
+  network — on-chain payment-finance infrastructure that connects global capital
+  to real-world payment assets such as cross-border settlements, card payments,
+  and payroll advances with T+0 on-chain settlement. Huma is offered in two
+  forms: Huma (Permissionless), a retail-open protocol launched April 2025, and
+  Huma Institutional, a permissioned protocol for licensed financial
+  institutions accessing curated payment-financing and RWA opportunities. The
+  protocol runs as smart contracts across Solana, EVM chains, and Stellar
+  (Soroban), has processed over $7 billion in on-chain transactions, and is
+  backed by partners including Solana, Circle, the Stellar Development
+  Foundation, and Galaxy Digital. Developers integrate through the first-party
+  @huma-finance JavaScript SDK, Solana permissionless SDK, Soroban SDK, and
+  embeddable React widgets published on npm.
 url: https://raw.githubusercontent.com/api-evangelist/huma-technologies-inc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://huma.finance/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +35,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- PayFi
+- DeFi
+- Payments
+- Lending
+- Stablecoins
+- Real-World Assets
+- Blockchain
+- Web3
+- Solana
+- Stellar
+- Credit Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +58,32 @@ maintainers:
 common:
 - type: Website
   url: https://huma.finance
+- type: Documentation
+  url: https://docs.huma.finance
+- type: GitHubOrganization
+  url: https://github.com/00labs
+- type: SignUp
+  url: https://app.huma.finance
+- type: TermsOfService
+  url: https://app.huma.finance/terms-of-service
+- type: PrivacyPolicy
+  url: https://app.huma.finance/terms-of-service
+- type: Support
+  url: https://discord.com/invite/humafinance
+- type: LLMsTxt
+  url: llms/huma-technologies-inc-llms.txt
+- type: Packages
+  url: packages/huma-technologies-inc-packages.yml
+- type: SDKs
+  url: packages/huma-technologies-inc-packages.yml
+- type: VulnerabilityDisclosure
+  url: security/huma-technologies-inc-vulnerability-disclosure.yml
+- type: Security
+  url: https://docs.huma.finance/ecosystem-resources/security-audits
+- type: DomainSecurity
+  url: security/huma-technologies-inc-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

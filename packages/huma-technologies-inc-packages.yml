@@ -1,0 +1,53 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/huma-finance
+notes: >-
+  First-party Huma Finance client libraries published to npm under the
+  @huma-finance scope from the github.com/00labs source org (huma-js and
+  huma-soroban-sdk monorepos). These are JavaScript/TypeScript SDKs and
+  embeddable widgets for integrating with the Huma PayFi protocol across
+  Solana, EVM, and Stellar (Soroban). Huma is a smart-contract protocol, not
+  a REST API, so there is no server-side multi-language SDK matrix.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@huma-finance/sdk"
+    url: https://www.npmjs.com/package/@huma-finance/sdk
+    install: npm install @huma-finance/sdk
+    source: https://github.com/00labs/huma-js
+    latest: 0.0.80
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@huma-finance/permissionless-sdk"
+    url: https://www.npmjs.com/package/@huma-finance/permissionless-sdk
+    install: npm install @huma-finance/permissionless-sdk
+    description: Huma Finance Permissionless SDK for Solana
+    latest: 1.0.24
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@huma-finance/soroban-sdk"
+    url: https://www.npmjs.com/package/@huma-finance/soroban-sdk
+    install: npm install @huma-finance/soroban-sdk
+    source: https://github.com/00labs/huma-soroban-sdk
+    description: Utilities and services for interacting with Huma on Stellar Soroban
+    latest: 0.0.31
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@huma-finance/widgets"
+    url: https://www.npmjs.com/package/@huma-finance/widgets
+    install: npm install @huma-finance/widgets
+    source: https://github.com/00labs/huma-js
+    description: Embeddable React UI widgets for Huma lending/investing flows
+    latest: 0.0.80
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@huma-finance/shared"
+    url: https://www.npmjs.com/package/@huma-finance/shared
+    install: npm install @huma-finance/shared
+    source: https://github.com/00labs/huma-js
+    description: Shared utilities used across the Huma JS SDK and widgets
+    official: true
