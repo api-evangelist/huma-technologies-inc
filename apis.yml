@@ -1,5 +1,5 @@
 aid: huma-technologies-inc
-name: Huma Technologies Inc.
+name: Huma Technologies
 description: >-
   Huma Technologies Inc. operates Huma Finance, described as the first PayFi
   network — on-chain payment-finance infrastructure that connects global capital
@@ -47,6 +47,9 @@ x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-10-03
 tags:
 - Company
 - PayFi
@@ -111,3 +114,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Huma Technologies Inc.
